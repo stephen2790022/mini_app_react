@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.clients {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 15px;
+
+  img {
+    width: 300px;
+    object-fit: scale-down;
+  }
+
+  &Body {
+    p {
+      margin: 10px 0;
+    }
+
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  &Footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 20px;
+
+    a {
+      text-decoration: none;
+      height: 30px;
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px;
+      background-color: rgb(139, 61, 61);
+    }
+  }
+}
